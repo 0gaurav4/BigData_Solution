@@ -190,7 +190,37 @@ Screen and (orientation: landscape){
   }
 }
 
+#intro1 {
+  background-image: url(https://existek3-838c.kxcdn.com/wp-content/uploads/2018/04/where-do-we-use-big-data-solutions-in-real-life-scheme-picture.jpg);
+  background-attachment: scroll;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReL8KKqmwCVC0JbhaYajrdoQmiFXnhdAvHVg&usqp=CAU); */
+  height: 100vh;
+}
 
+/* Height for devices larger than 576px */
+@media screen and (max-width: 600px),
+Screen and (orientation: landscape){
+
+  #intro1 {
+    margin-top: -1.59px;
+  }
+}
+
+#intro2 {
+  background-image: url(https://www.smartdatacollective.com/wp-content/uploads/2014/09/big-data-sources.png);
+  background-attachment: scroll;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReL8KKqmwCVC0JbhaYajrdoQmiFXnhdAvHVg&usqp=CAU); */
+  height: 100vh;
+}
+
+/* Height for devices larger than 576px */
+@media screen and (max-width: 600px),
+Screen and (orientation: landscape){
+
+  #intro2 {
+    margin-top: -1.59px;
+  }
+}
 
 
 html {
@@ -428,7 +458,7 @@ nav ul li{
   }
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -446,7 +476,7 @@ nav ul li{
 }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
