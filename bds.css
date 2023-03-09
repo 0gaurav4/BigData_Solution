@@ -475,6 +475,15 @@ nav ul li{
   }
 }
   
+
+@media screen and (max-width: 1200px){
+  .container {position: relative;}
+  .container.responsive iframe.float-container {
+    flex-wrap: wrap;
+    display: flex;
+    height: 50vh;
+  } 
+  }
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 1200px) {
     .topnav.responsive {position: relative;}
